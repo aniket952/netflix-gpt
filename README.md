@@ -3,8 +3,8 @@
 -configure tailwind css
 
 #Features
--login/sing up
--sign in/ singn up form
+-login/sign up
+-sign in/ sign up form
 -redirect to browser page
 -Browse (after Oauth)
 -Header
@@ -12,3 +12,7 @@
 -tailer in background
 -title & description
 -movie suggestion
+-movielist \* N
+-netflixGpt
+-search Bar
+-movie suggestions
