@@ -1,8 +1,13 @@
-#Netflix Gpt
+#Netflix Gpt live link : https://netflixgpt-bf19c.web.app/
 -create react app
 -configure tailwind css
 -Form validation
 -useRef Hook
+-firebase setup
+-hosting to firebase
+-login auth using firebase
+-Create singup user account
+-unsubscribe to the onAuthStatChanges called
 
 #Features
 -login/sign up
