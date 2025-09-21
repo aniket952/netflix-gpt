@@ -24,7 +24,6 @@ function LoginForm() {
       email.current.value,
       password.current.value
     );
-    console.log(validationResult);
     setErrorMessage(validationResult);
     if (validationResult) return;
 
@@ -37,7 +36,6 @@ function LoginForm() {
         .then((userCredential) => {
           // Signed up
           const user = userCredential.user;
-          console.log("signup me hu tu", user);
           updateProfile(auth.currentUser, {
             displayName: name,
             photoURL:
@@ -45,7 +43,6 @@ function LoginForm() {
           })
             .then(() => {
               const { uid, email, displayName, photoURL } = auth.currentUser;
-              console.log("name --", displayName, photoURL);
               dispatch(
                 addUser({
                   uid: uid,
@@ -59,7 +56,6 @@ function LoginForm() {
               console.log("err ", error.message);
             });
 
-          console.log("user", user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -67,7 +63,6 @@ function LoginForm() {
           setErrorMessage(errorCode + " " + errorMessage);
         });
     } else {
-      console.log("in else");
       signInWithEmailAndPassword(
         auth,
         email.current.value,
@@ -76,7 +71,6 @@ function LoginForm() {
         .then((userCredential) => {
           // Signed in
           const user = auth.currentUser;
-          console.log("sign in-- ", user);
         })
         .catch((error) => {
           const errorCode = error.code;

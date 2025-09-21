@@ -8,6 +8,13 @@
 -login auth using firebase
 -Create singup user account
 -unsubscribe to the onAuthStatChanges called
+-register for tmdb website and get access token
+-Get a Data from TMBD - now playing movies list API
+-custom hook for now playing movies
+-updated the store with movies data
+-fetch data for trailer viedo
+-update store with trailer video
+-embeded the yt viedo, make it autoplay and loop
 
 #Features
 -login/sign up
