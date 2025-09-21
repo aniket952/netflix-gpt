@@ -15,6 +15,9 @@
 -fetch data for trailer viedo
 -update store with trailer video
 -embeded the yt viedo, make it autoplay and loop
+-Secondary movie list
+-Img CDN URL
+-Made the Browse page UI better
 
 #Features
 -login/sign up
