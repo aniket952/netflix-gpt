@@ -11,7 +11,7 @@ const Body = () => {
     {
       path: "/browser",
       element: <Browse />,
-    },
+    }
   ]);
 
   return <RouterProvider router={approuter} />;

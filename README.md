@@ -18,6 +18,8 @@
 -Secondary movie list
 -Img CDN URL
 -Made the Browse page UI better
+-GPT search feature
+-Multi-language feature in search
 
 #Features
 -login/sign up
