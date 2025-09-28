@@ -8,7 +8,7 @@ const GptMovieSuggestions = ({ movies }) => {
         {movies.map((movie, index) =>
           movie && movie.length > 0 ? (
             <MovieList key={index} title="Recommendation" movies={movie} />
-          ) : null
+          ) : <h1>No recommendations</h1>
         )}
       </div>
     </div>
